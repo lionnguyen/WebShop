@@ -1,0 +1,184 @@
+/*noinspection CssUnknownTarget*/
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2&family=Montserrat&family=Raleway&family=Rubik&display=swap");
+/* Sass Template */
+/*Global classes*/
+button, button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+a {
+  display: block !important;
+  text-decoration: none !important;
+}
+
+/*Typography classes*/
+.font-baloo {
+  font-family: "Baloo 2",cursive;
+}
+
+.font-rale {
+  font-family: "Raleway",cursive;
+}
+
+.font-rubik {
+  font-family: "Rubik",cursive;
+}
+
+.font-size-12 {
+  font-size: 12px;
+}
+
+.font-size-14 {
+  font-size: 14px;
+}
+
+.font-size-16 {
+  font-size: 16px;
+}
+
+.font-size-20 {
+  font-size: 20px;
+}
+
+/*Color Template*/
+.color-primary {
+  color: #003859;
+}
+
+.color-primary-bg {
+  background: #003859;
+}
+
+.color-second {
+  color: #00A5C4;
+}
+
+.color-second-bg {
+  background: #00A5C4;
+}
+
+.color-yellow {
+  color: #FFD289;
+}
+
+.color-yellow-bg {
+  background: #FFD289;
+}
+
+.color-black {
+  color: black;
+}
+
+/*Top sale templates*/
+#top-sale .owl-carousel .item .product a {
+  overflow: hidden;
+}
+#top-sale .owl-carousel .item .product img {
+  transition: all 0.5s ease;
+}
+#top-sale .owl-carousel .item .product img:hover {
+  transform: scale(1.1);
+}
+#top-sale .owl-carousel .owl-nav button {
+  position: absolute;
+  top: 30%;
+  outline: none;
+}
+#top-sale .owl-carousel .owl-nav button.owl-prev {
+  left: 0;
+}
+#top-sale .owl-carousel .owl-nav button.owl-next {
+  right: 0;
+}
+#top-sale .owl-carousel .owl-nav button.owl-prev span,
+#top-sale .owl-carousel .owl-nav button.owl-next span {
+  font-size: 35px;
+  color: black;
+  padding: 0 1rem;
+}
+#top-sale .owl-carousel .owl-nav button.owl-prev span {
+  margin-left: -4rem;
+}
+#top-sale .owl-carousel .owl-nav button.owl-next span {
+  margin-right: -4rem;
+}
+
+#special-price .grid .grid-item {
+  margin-right: 1.2rem;
+  margin-top: 1rem;
+}
+
+/* Register Page */
+#register, #login-form, #profile-site{
+  padding: 5% 0;
+  background: url("assets/background-img2.jpg") no-repeat;
+  background-size: cover;
+}
+
+#reg-form input[type='text'],
+#reg-form input[type='email'],
+#reg-form input[type='password'],
+#log-form input[type='text'],
+#log-form input[type='email'],
+#logg-form input[type='password']{
+  border: none;
+  border-radius: unset;
+  border-bottom: 1px solid #F0FFFF;
+  font-size: 18px;
+  font-family: "Baloo 2" , cursive;
+}
+#reg-form input[type='text'],
+#reg-form input[type='email'],
+#reg-form input[type='password'],
+#log-form input[type='text'],
+#log-form input[type='email'],
+#log-form input[type='password']{
+  outline: none;
+  box-shadow: none;
+}
+
+/* Register Page */
+
+/* Contact us */
+* {box-sizing: border-box}
+  .form-action .action, .form-action .richtext {
+  width: 60%;
+  padding: 15px;
+  margin: 0 auto; 
+  border: none;
+  margin: 15px 0;
+  background: #f1f1f1;
+}
+.form-action{
+  width: 1100px;
+}
+.form-action .action:focus ,.form-action .richtext:focus{
+  background-color: #ddd;
+  outline: none;
+}
+.location {
+  border : 2px solid #7e1117;
+  display: flex;
+  align-items: center;
+  margin: 2rem;
+}
+.form-action .btn_send {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 20%;
+  opacity: 0.9;
+}
+.form-action .btn_send:hover {
+  opacity:1;
+}
+.form-contact{
+  width:100%;
+ display: flex;
+}
+/* end contact us */
+/*# sourceMappingURL=style.css.map */

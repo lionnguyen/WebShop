@@ -1,0 +1,1 @@
+<h1 class="font-rubik text-center text-dark py-5">All Products</h1>
